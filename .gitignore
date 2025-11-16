@@ -1,0 +1,9 @@
+# Dossier de niveaux
+levels/
+
+# Exécutables
+prog.exe
+editor.exe
+
+# Config VSCode
+.vscode/
