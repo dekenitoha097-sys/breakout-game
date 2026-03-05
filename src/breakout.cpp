@@ -4,11 +4,12 @@
 
 Breakout::Breakout()
 {
-    InitWindow(brick_width * (max_brick_horizontale_number + ui_part), 
-               brick_height * max_brick_verticale_number, 
+    InitWindow(brick_width * (max_brick_horizontale_number + ui_part),
+               brick_height * max_brick_verticale_number,
                "Breakout");
 
     SetTargetFPS(60);
+    SetExitKey(KEY_NULL);
 
     // FRAME DE DÉPART = MENU
     frame = MENU;
@@ -46,6 +47,13 @@ void Breakout::update()
             if (dynamic_cast<Levels*>(current_frame.get()) == nullptr)
             {
                 current_frame = std::make_unique<Levels>();
+            }
+            break;
+
+        case SETTINGS:
+            if (dynamic_cast<SettingsFrame*>(current_frame.get()) == nullptr)
+            {
+                current_frame = std::make_unique<SettingsFrame>();
             }
             break;
 

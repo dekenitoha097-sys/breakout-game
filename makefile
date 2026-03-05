@@ -3,7 +3,7 @@
 # ========================
 
 CXX = g++
-CXXFLAGS = -I include -Wall -O2
+CXXFLAGS = -I include -Wall -O2 -std=c++17
 
 # Liens Raylib (Windows et Linux)
 LDFLAGS_WIN = -L C:/raylib/w64devkit/lib -lraylib -lopengl32 -lgdi32 -lwinmm
