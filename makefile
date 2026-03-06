@@ -11,7 +11,7 @@ LDFLAGS_LINUX = -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
 SRC_DIR = src
 OBJ_DIR = obj
-BIN = prog
+BIN = breakout-game
 
 # ========================
 # Recherche automatique des sources
