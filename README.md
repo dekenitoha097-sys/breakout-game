@@ -57,9 +57,6 @@ Un jeu de casse-briques classique avec éditeur de niveaux intégré, développ�
 
 ## 📷 Captures d'écran
 
-*(Ajoutez vos captures d'écran ici)*
-
-
 ![](https://i.postimg.cc/Qtzg7Rqp/breakout-game.png)
 
 ## 🚀 Installation
