@@ -59,25 +59,8 @@ Un jeu de casse-briques classique avec éditeur de niveaux intégré, développ�
 
 *(Ajoutez vos captures d'écran ici)*
 
-```
-┌─────────────────────────────────────────┐
-│           BREAKOUT GAME                 │
-│                                         │
-│   ┌─────────────────────────────┐       │
-│   │     ████  ████  ████  ████  │       │
-│   │     ████  ████  ████  ████  │       │
-│   │     ████  ████  ████  ████  │       │
-│   │                               │       │
-│   │            ●                 │       │
-│   │                               │       │
-│   │      ═════════════          │       │
-│   │                               │       │
-│   │  ❤️ ❤️ ❤️        SCORE: 0    │       │
-│   └─────────────────────────────┘       │
-│                                         │
-│      [ PLAY ]  [ SETTINGS ]             │
-└─────────────────────────────────────────┘
-```
+
+![](https://i.postimg.cc/Qtzg7Rqp/breakout-game.png)
 
 ## 🚀 Installation
 
