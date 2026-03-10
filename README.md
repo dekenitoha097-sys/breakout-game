@@ -210,8 +210,8 @@ breakout-game/
 │   ├── frames.cpp           # Gestion des écrans
 │   ├── json.cpp             # Utilitaires JSON
 │   └── editor/
-│       ├── main.cpp         # Point d'entrée éditeur
-│       └── editor.cpp       # Logique de l'éditeur
+│       ├── main.cpp  X       # Point d'entrée éditeur
+│       └── editor.cpp   X    # Logique de l'éditeur 
 ├── makefile                 # Script de compilation
 └── breakout-game.exe        # Exécutable (Windows)
 ```
