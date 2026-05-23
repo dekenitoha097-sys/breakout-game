@@ -234,7 +234,7 @@ Le fichier `config/game_config.json` contient les paramètres du jeu:
 | `master_volume` | Volume principal (0.0 - 1.0) | 1.0 |
 | `muted` | Mode muet | false |
 
-## 🤝 Contribuer
+## Contribuer
 
 Les contributions sont les bienvenues! Pour contribuer:
 
@@ -267,12 +267,6 @@ g++ src/*.cpp -o breakout-game -I include -lraylib -lGL -lm -lpthread -ldl -lrt 
 
 - **Raylib** - [https://www.raylib.com/](https://www.raylib.com/) - Bibliothèque graphique
 - **nlohmann/json** - [https://github.com/nlohmann/json](https://github.com/nlohmann/json) - Parser JSON
-
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
 
 <div align="center">
 
